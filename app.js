@@ -12,9 +12,6 @@ app.use(
 )
 app.use('/', router);
 
-app.get('/getapi',(req,res)=>{
-    res.send("wokshkdfjshdkjf")
-})
 app.listen(5000, () => {
     console.log(`App is running...`)
   })
